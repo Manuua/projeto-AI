@@ -1,0 +1,24 @@
+Mac:
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew install elixir
+
+mix local.hex
+
+mix archive.install hex phx_new 1.6.0 # Ou a versão mais recente
+
+mix phx.new . --no-ecto
+
+Windows:
+Baixe e instale o instalador do Elixir para Windows a partir do site oficial.
+
+mix archive.install hex phx_new # Versão mais recente
+
+mix phx.new . --no-ecto
+
+Linux (Ubuntu/Debian)
+sudo apt update
+sudo apt install erlang elixir
+
+mix archive.install hex phx_new # Versão mais recente
+
+mix phx.new . --no-ecto
