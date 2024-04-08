@@ -11,12 +11,12 @@ defmodule AppWeb.ChatBot.ChatBotLiveView do
     </div>
     <div class="px-4 py-10 sm:px-6 sm:py-28 lg:px-8 xl:px-28 xl:py-32">
       <div class="mx-auto max-w-xl lg:mx-0">
-        <h1 class="text-brand mt-10 flex items-center text-sm font-semibold leading-6">
-          Chatbot de Direcionamento para Escolha de Curso Superior
-        </h1>
-        <p class="text-[2rem] mt-4 font-semibold leading-10 tracking-tighter text-zinc-900">
-          Bem-vindo ao Chatbot que irá ajudar a Ingressar na FATEC ZONA SUL !
-        </p>
+      <h1 class="text-brand mt-6 text-lg font-semibold">
+        Chatbot de Direcionamento para Escolha de Curso Superior
+      </h1>
+      <p class="text-lg mt-2 font-bold text-zinc-900">
+      Bem-vindo ao Chatbot da FATEC ZONA SUL!
+    </p>
         <p class="mt-4 text-base leading-7 text-zinc-600">
           Este chatbot está aqui para ajudá-lo a escolher o curso superior ideal.
         </p>
