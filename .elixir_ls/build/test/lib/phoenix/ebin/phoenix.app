@@ -86,7 +86,7 @@
                         'Elixir.Phoenix.VerifiedRoutes',
                         'Elixir.Plug.Exception.Phoenix.ActionClauseError']},
               {registered,[]},
-              {vsn,"1.7.9"},
+              {vsn,"1.7.11"},
               {mod,{'Elixir.Phoenix',[]}},
               {env,[{logger,true},
                     {stacktrace_depth,nil},

@@ -7,4 +7,4 @@
                         'Elixir.Phoenix.Template.Engine',
                         'Elixir.Phoenix.Template.ExsEngine']},
               {registered,[]},
-              {vsn,"1.0.3"}]}.
+              {vsn,"1.0.4"}]}.

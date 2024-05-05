@@ -6,6 +6,6 @@
                         'Elixir.Mix.Tasks.Tailwind.Install',
                         'Elixir.Tailwind']},
               {registered,[]},
-              {vsn,"0.2.1"},
+              {vsn,"0.2.2"},
               {mod,{'Elixir.Tailwind',[]}},
               {env,[{default,[]}]}]}.

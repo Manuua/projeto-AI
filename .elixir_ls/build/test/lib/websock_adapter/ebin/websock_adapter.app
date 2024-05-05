@@ -4,6 +4,8 @@
                              plug_cowboy]},
               {description,"A set of WebSock adapters for common web servers"},
               {modules,['Elixir.WebSockAdapter',
-                        'Elixir.WebSockAdapter.CowboyAdapter']},
+                        'Elixir.WebSockAdapter.CowboyAdapter',
+                        'Elixir.WebSockAdapter.UpgradeError',
+                        'Elixir.WebSockAdapter.UpgradeValidation']},
               {registered,[]},
-              {vsn,"0.5.4"}]}.
+              {vsn,"0.5.6"}]}.

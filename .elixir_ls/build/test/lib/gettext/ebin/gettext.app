@@ -17,7 +17,7 @@
                         'Elixir.Mix.Tasks.Gettext.Extract',
                         'Elixir.Mix.Tasks.Gettext.Merge']},
               {registered,[]},
-              {vsn,"0.23.1"},
+              {vsn,"0.24.0"},
               {env,[{default_locale,<<"en">>},
                     {plural_forms,'Elixir.Gettext.Plural'}]},
               {mod,{'Elixir.Gettext.Application',[]}}]}.

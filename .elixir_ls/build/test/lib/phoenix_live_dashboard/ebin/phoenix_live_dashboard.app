@@ -51,5 +51,5 @@
                         'Elixir.Phoenix.LiveDashboard.TitleBarComponent',
                         'Elixir.Phoenix.LiveDashboard.Web']},
               {registered,[]},
-              {vsn,"0.8.2"},
+              {vsn,"0.8.3"},
               {mod,{'Elixir.Phoenix.LiveDashboard.Application',[]}}]}.

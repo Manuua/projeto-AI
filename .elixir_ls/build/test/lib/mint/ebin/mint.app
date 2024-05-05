@@ -15,5 +15,5 @@
                         'Elixir.Mint.TunnelProxy','Elixir.Mint.Types',
                         'Elixir.Mint.UnsafeProxy',mint_shims]},
               {registered,[]},
-              {vsn,"1.5.1"},
+              {vsn,"1.5.2"},
               {mod,{'Elixir.Mint.Application',[]}}]}.

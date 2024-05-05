@@ -20,6 +20,7 @@
                         'Elixir.Inspect.Expo.Message.Singular',
                         'Elixir.Inspect.Expo.PluralForms',
                         'Elixir.Mix.Tasks.Expo.Msgfmt',
+                        'Elixir.Mix.Tasks.Expo.Msguniq',
                         expo_plural_forms_parser,expo_po_parser]},
               {registered,[]},
-              {vsn,"0.4.1"}]}.
+              {vsn,"0.5.2"}]}.

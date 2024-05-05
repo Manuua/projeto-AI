@@ -8,5 +8,5 @@
                         'Elixir.Plug.Cowboy.Handler',
                         'Elixir.Plug.Cowboy.Translator']},
               {registered,[]},
-              {vsn,"2.6.1"},
+              {vsn,"2.7.1"},
               {mod,{'Elixir.Plug.Cowboy',[]}}]}.
