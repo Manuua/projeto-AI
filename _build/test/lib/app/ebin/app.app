@@ -6,7 +6,7 @@
                              phoenix,phoenix_html,phoenix_live_view,floki,
                              phoenix_live_dashboard,swoosh,finch,
                              telemetry_metrics,telemetry_poller,gettext,jason,
-                             plug_cowboy]},
+                             plug_cowboy,httpoison]},
               {description,"app"},
               {modules,['Elixir.App','Elixir.App.Application',
                         'Elixir.App.Mailer','Elixir.App.OpenAi.OpenaiService',

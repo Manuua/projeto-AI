@@ -1,6 +1,7 @@
 defmodule AppWeb.ChatBot.ChatBotLiveView do
   use AppWeb, :live_view
 
+  alias App.Openai.ChatBot
 
   def render(assigns) do
     ~H"""
@@ -164,7 +165,7 @@ defmodule AppWeb.ChatBot.ChatBotLiveView do
         socket
       ) do
     chat = socket.assigns.chat
-    message = "Ainda não fui implementado, mas em breve estarei! :D"
+    message = ChatBot.execute(chat)
     chat = chat ++ [%{role: "assistant", content: message}]
 
     {:noreply,
