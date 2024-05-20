@@ -1,0 +1,27 @@
+# Diretório de dependências do Mix
+/deps
+
+# Diretório de compilações do Mix
+/_build
+
+# Diretórios específicos de editores/IDE
+/.elixir_ls
+/.vscode
+.idea/
+
+# Arquivos de configuração do sistema operacional
+.DS_Store
+*.swp
+
+# Arquivos de log
+/log
+
+# Arquivos de configuração de ambiente
+.env
+*.env
+
+# Test coverage reports
+/cover
+
+# Exclui quaisquer arquivos temporários
+/tmp
