@@ -8,7 +8,15 @@ defmodule App.Openai.OpenaiServiceTest do
         %{role: "user", content: "Hello!"}
       ]
 
-      assert %{"message" => %{"content" => message}} = OpenaiService.chat_completion(chat)
+      assert %{"message" => %{"content" => _message}} = OpenaiService.chat_completion(chat)
+    end
+  end
+
+  describe "completions/1" do
+    test "returns a completion for a pront" do
+      prompt = "The quick brown fox"
+
+      assert %{"text" => _text} = OpenaiService.completions(prompt)
     end
   end
 end

@@ -1,24 +1,22 @@
 defmodule App.Openai.ChatBotTest do
-  use ExUnit.Case, async: true
-
+  use ExUnit.Case
   alias App.Openai.ChatBot
 
-describe "execute/1" do
-    test "returns a response" do
+  describe "execute/1" do
+    test "returns a string" do
       chat = [
-        %{role: "user", content: "Hello"},
-        %{role: "assistant", content: "Hello! How can I help you?"}
+        %{role: "user", content: "Hello!"}
       ]
 
       assert is_binary(ChatBot.execute(chat))
     end
 
-  test "return a non-empty response" do
+    test "returns a non-empty string" do
       chat = [
-        %{role: "user", content: "Hello"},
+        %{role: "user", content: "Hello!"}
       ]
 
       assert String.length(ChatBot.execute(chat)) > 0
     end
-end
+  end
 end

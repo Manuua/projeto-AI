@@ -1,6 +1,8 @@
 defmodule AppWeb.Prompt.PromptLiveView do
   use AppWeb, :live_view
 
+  alias App.Openai.Prompt
+
   def render(assigns) do
     ~H"""
     <div class="left-[40rem] fixed inset-y-0 right-0 z-0 hidden lg:block xl:left-[50rem]">
@@ -172,7 +174,7 @@ defmodule AppWeb.Prompt.PromptLiveView do
         socket
       ) do
     chat = socket.assigns.chat
-    message = "Ainda não fui implementado, mas em breve estarei! :D"
+    message = Prompt.execute(msg)
     chat = chat ++ [%{role: "assistant", content: message}]
 
     {:noreply,
